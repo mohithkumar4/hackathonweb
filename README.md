@@ -2,9 +2,11 @@
 
 Official landing page for **InnoTech Summit**, a 12 + 12 hour hackathon at SSIT College, Tumkur (April 1–2, 2026).
 
-**Live site (GitHub Pages):** Configure Pages to serve from `/innotech-summit/out` after enabling GitHub Pages on this repository.
+**Live site:** [https://innohacksummit.netlify.app/](https://innohacksummit.netlify.app/)
 
 **Repository:** [github.com/mohithkumar4/hackathonweb](https://github.com/mohithkumar4/hackathonweb)
+
+**License:** [MIT](LICENSE) — free to use, modify, and publish this code and site.
 
 ---
 
@@ -30,7 +32,7 @@ Official landing page for **InnoTech Summit**, a 12 + 12 hour hackathon at SSIT 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
-- Static export (`output: 'export'`) for GitHub Pages
+- Static export (`output: 'export'`) — deployed on [Netlify](https://innohacksummit.netlify.app/)
 
 ---
 
@@ -85,16 +87,15 @@ npm run lint
 
 ---
 
-## Deploy on GitHub Pages
+## Deployment
 
-1. Push this repository to GitHub.
-2. Go to **Settings → Pages**.
-3. **Source:** Deploy from a branch.
-4. **Branch:** `main`
-5. **Folder:** `/innotech-summit/out`
-6. Save. Your site will be available at `https://<username>.github.io/hackathonweb/` (paths may include the repo name depending on your Pages URL).
+The production site is hosted on **Netlify:** [innohacksummit.netlify.app](https://innohacksummit.netlify.app/)
 
-After code changes, rebuild and push:
+After code changes, rebuild and deploy the `out/` folder (Netlify, GitHub Pages, or any static host):
+
+**GitHub Pages (optional):** Settings → Pages → branch `main` → folder `/innotech-summit/out`
+
+After local changes:
 
 ```bash
 cd innotech-summit
@@ -124,4 +125,4 @@ Built for InnoTech Summit by the organizing team. Team photos and details are on
 
 ## License
 
-Private hackathon project. All rights reserved unless otherwise noted by the organizers.
+This project is released under the **MIT License**. You are free to use, copy, modify, merge, publish, distribute, and sublicense the source code and deploy your own version of the site. See [LICENSE](LICENSE) for the full text.
